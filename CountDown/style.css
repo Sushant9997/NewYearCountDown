@@ -1,0 +1,31 @@
+body{
+    background-color: #f6f6f6;
+    background-image: url("newyear.jpg");
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.counterContainer{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transition: translateX(-50%) translateY(-50%);
+    text-align: center;
+    background: #ddd;
+    border: 1px solid #999;
+    padding: 10px;
+    box-shadow: 0 0 5px 3px #ccc;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.info{
+    font-size: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1{
+    align-content: center;
+}
